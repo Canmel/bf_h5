@@ -119,17 +119,17 @@
 	<script src="js/main.js"></script>
 
 	<script>
-        $(function(){
-            $("#share").click(function(){
-                var titl= "你能猜到那条是我发的吗？";
-                var link= "www.skio.cn";
-                var desc= "desc";
-                var imgUrl="http://bf.meedesidy.top/img/car.png"
-                alert("");
-                function weixinShareTimeline(title,desc,link,imgUrl)
-            });
+	$(function(){
+		$("#share").click(function(){
+			var titl= "你能猜到那条是我发的吗？";
+			var link= "www.skio.cn";
+			var desc= "desc";
+			var imgUrl="http://bf.meedesidy.top/img/car.png"
+			alert("");
+			function weixinShareTimeline(title,desc,link,imgUrl)
+		});
 
-        });
+	});
 
         function weixinShareTimeline(title,desc,link,imgUrl){
             WeixinJSBridge.invoke('shareTimeline',{
