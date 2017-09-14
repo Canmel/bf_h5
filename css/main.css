@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+body{ height:100%;overflow:hidden; font-family: '微软雅黑'}
+* { margin:0; padding:0; }
+a { text-decoration: none; }
+input, button { border:0; border-radius:0; box-shadow:none; } /*去掉input默认样式*/
+a:focus, input:focus { outline:none }
+i { font-style:normal; }
+a, img, button, input, textarea { -webkit-tap-highlight-color:rgba(255,255,255,0); }
+ul,li{list-style: none;}
+.clear{clear: both; height: 0;}
+.page{display: none;}
+.bgmusic{background: url(../img/musicIcon.png) no-repeat center; width: 49px;height: 49px; position: absolute;right: 25px; top:45px; z-index: 99;}
+.musicplay{-webkit-animation: circle 2s infinite linear; -moz-animation: circle 2s infinite linear; animation: circle 2s infinite linear;}
+/*首页*/
+.pagePub{width:640px;  margin:0 auto; height: 1020px;overflow:hidden;}
+.page01{ background-color:#0068b7; position:relative;}
+.titleBg{ background:url(../img/page01-top.png) no-repeat center; width:547px; height:435px; margin: 0 auto; padding-top:24%;}
+.bluefriend{position:absolute; top:560px; background:url(../img/blueFriend.png) no-repeat center; width: 384px; height: 273px; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
+-moz-transform:translate(-50%,0); -webkit-animation: start 1.2s 1 ease; -moz-animation: start 1.2s 1 ease; animation: start 1.2s 1 ease; }
+.bottomLogo{background:url(../img/page01-bottom.png) no-repeat center; width:245px; height:69px; position: absolute; bottom: 8%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
+-moz-transform:translate(-50%,0); }
+/*蓝盆友掉下来*/
+@keyframes start {
+ 0% {
+opacity: 0;
+-webkit-transform: translate(-50%, -500px);
+}
+ 70% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0px);
+}
+ 80% {
+opacity: 1;
+-webkit-transform: translate(-50%, -200px);
+}
+90% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0);
+}
+95% {
+opacity: 1;
+-webkit-transform: translate(-50%, -130px);
+}
+97% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0);
+}
+99% {
+opacity: 1;
+-webkit-transform: translate(-50%, -50px);
+}
+100% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0);
+}
+}
+@-webkit-keyframes start {
+ 0% {
+opacity: 0;
+-webkit-transform: translate(-50%, -500px);
+}
+ 70% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0px);
+}
+ 80% {
+opacity: 1;
+-webkit-transform: translate(-50%, -200px);
+}
+90% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0);
+}
+95% {
+opacity: 1;
+-webkit-transform: translate(-50%, -130px);
+}
+97% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0);
+}
+99% {
+opacity: 1;
+-webkit-transform: translate(-50%, -50px);
+}
+100% {
+opacity: 1;
+-webkit-transform: translate(-50%, 0);
+}
+}
+@-moz-keyframes start {
+ 0% {
+opacity: 0;
+-moz-transform: translate(-50%, -500px);
+}
+ 70% {
+opacity: 1;
+-moz-transform: translate(-50%, 0px);
+}
+ 80% {
+opacity: 1;
+-moz-transform: translate(-50%, -200px);
+}
+90% {
+opacity: 1;
+-moz-transform: translate(-50%, 0);
+}
+95% {
+opacity: 1;
+-moz-transform: translate(-50%, -130px);
+}
+97% {
+opacity: 1;
+-moz-transform: translate(-50%, 0);
+}
+99% {
+opacity: 1;
+-moz-transform: translate(-50%, -50px);
+}
+100% {
+opacity: 1;
+-moz-transform: translate(-50%, 0);
+}
+}
+/*留言板*/
+.messageBg{ padding-top: 118px; }
+.page02{background-color: #21a7db;}
+.messageUl{overflow: scroll; width: 610px; height: 740px;}
+.messageUl li{width: 530px; height: 138px; background-color: #fff; margin:0 auto 30px; border-radius: 20px;-webkit-border-radius: 20px; -moz-border-radius: 20px; box-shadow: 3px 3px 10px rgba(0,0,0,.5); -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,.5); -o-box-shadow: 3px 3px 10px rgba(0,0,0,.5);  }
+.tx{float: left; width: 174px; margin-top: 10px; }
+.message{float: right; color: #4e504f; font-size:22px; width: 336px; height: 70px; padding-right: 20px; margin: 30px auto;line-height: 38px; text-align: left; overflow: hidden;}
+.tx img{width:90px; margin: 0 auto; display: block;}
+.tx span{display: block; font-size: 12px; color: #4e504f; text-align: center;}
+.meaasgeBottom a{width: 230px; height: 64px; background-color: #fff; color: #21a7db; display: block; border-radius: 30px; -webkit-border-radius: 30px; -o-border-radius: 30px; margin-top: 50px; margin-bottom: 80px; font-size: 22px; text-align: center; line-height: 64px;  letter-spacing: 5px; }
+.speak{ float: left; margin-left: 50px;}
+.share{ float: right; margin-right: 50px;}
+#shadow{width:640px; position: absolute; height: 100%; left: 50%; transform: translate(-50%,0); -webkit-transform: translate(-50%,0); -moz-transform: translate(-50%,0); background-color:rgba(0,0,0,.5); display: none;z-index:100}
+.pyq{color: #fff; font-size: 24px; letter-spacing: 6px; background: url(../img/lead.png) no-repeat 400px 0; margin-top: 40px; margin-left:100px; padding:30px 0 0;}
+
+/*发送留言*/
+.sendArea{ width: 510px; height: 630px; margin: 0 auto; background-color: #fff; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;box-shadow: 2px 2px 5px rgba(0,0,0,.3); -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.3); -o-box-shadow: 2px 2px 5px rgba(0,0,0,.3); padding-top: 80px; }
+.sendArea textarea{ border: none 0;resize: none; width: 354px; margin: 0 auto; display: block; outline: medium; background: transparent; -webkit-appearance: none;-moz-appearance: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-moz-tap-highlight-color: transparent; font-size: 24px; line-height: 59px; height: 440px; }
+.sendBg{width: 354px;  height: 440px; background: url(../img/dot.png) no-repeat center top;margin: 0 auto;}
+.returnIcon{ background: url(../img/return.png) no-repeat center; display: block; width: 160px; height: 130px; }
+.tip{ background: url(../img/tx01.png) no-repeat left center; height: 146px; background-size: 146px; padding-left: 180px; margin: 0 50px;}
+.tip p input{ border:1px solid #d4d4d4; width: 200px; font-size:24px; display: block; height: 60px; line-height: 60px; padding-left: 10px; border-radius: 10px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; color: #7f8080; margin-top: 30px;  }
+.tip p { padding-top: 30px;}
+.sendA{width: 364px; height: 84px; background-color: #fff; color:#21a7db; display: block; border-radius: 30px; -webkit-border-radius: 42px; -moz-border-radius: 42px; margin-top: 60px;  font-size: 30px; text-align: center; line-height: 84px;  letter-spacing: 10px; margin: 60px auto;}
+
+/*留言详情*/
+.detail{width: 510px; height: 760px; margin: 0 auto; background-color: #fff; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;box-shadow: 2px 2px 5px rgba(0,0,0,.3); -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.3); -o-box-shadow: 2px 2px 5px rgba(0,0,0,.3); padding-top: 80px;}
+.txBig{ width: 186px; height: 186px; margin: 0 auto; display: block;}
+.nameBig{ display: block; font-size: 16px; color: #656766; text-align: center; line-height: 50px}
+.messageBig{ font-size:26px; width: 340px; color: #656766; margin: 30px auto;}
+.swiper-button-h { position: absolute; z-index: 10; background-image:url(../img/left.png); width: 31px; height: 58px; right: 10px; top: 524px; -moz-background-size: 31px 58px; -webkit-background-size: 31px 58px; background-size: 31px 58px; -webkit-animation: right_button 1.2s infinite ease-in-out;-moz-animation: right_button 1.2s infinite ease-in-out;animation: right_button 1.2s infinite ease-in-out;transform: rotate(180deg); -webkit-transform:rotate(180deg);
+-moz-transform:rotate(180deg); }
+.swiper-button-p { position: absolute; z-index: 10; background-image: url(../img/left.png); width: 31px; height: 58px; left: 10px; top: 524px; -moz-background-size: 31px 58px; -webkit-background-size: 31px 58px; background-size: 31px 58px;}
+
+/*正在为你加密*/
+.sendMessage{ position: relative;}
+.carBg{ background: url(../img/circle.png) no-repeat center; width: 594px; height: 594px; margin: 0 auto;  -webkit-animation: circle 2s infinite linear; -moz-animation: circle 2s infinite linear; animation: circle 2s infinite linear;}
+.sendCar{ position: absolute; top:270px; left: 50%; transform: translate(-50%,0); -webkit-transform: translate(-50%,0); -moz-transform: translate(-50%,0); }
+.loading{ width:394px; height: 30px; overflow: hidden; border-radius: 15px; margin: 0 auto; background-color: #fff;}
+.loadImg{ -webkit-animation: loadImg 3s 1 linear; -moz-animation: loadImg 3s 1 linear; animation: loadImg 3s 1 linear; }
+.processNum{ text-align: center; font-size: 16px; color: #fff; margin-top: 10px;}
+.loadingStr{ color: #fff; font-size: 38px; text-align: center; letter-spacing: 10px; margin-top: 40px;}
+/*转动*/
+@keyframes circle {
+ from{
+transform: rotate(0);
+}
+ to{
+transform: rotate(360deg);
+}
+
+}
+@-webkit-keyframes circle {
+ from {
+-webkit-transform: rotate(0);
+}
+ to {
+-webkit-transform: rotate(360deg);
+}
+
+}
+@-moz-keyframes circle {
+from {
+-wmoz-transform: rotate(0);
+}
+to {
+-moz-transform: rotate(360deg);
+}
+}
+/*进度条移动*/
+@keyframes loadImg {
+ from{
+transform: translate(-590px,0);
+}
+ to{
+transform: translate(-106px,0);
+}
+
+}
+@-webkit-keyframes loadImg {
+ from {
+-webkit-transform: translate(-590px,0);
+}
+ to {
+-webkit-transform: translate(-106px,0);
+}
+
+}
+@-moz-keyframes loadImg {
+from {
+-wmoz-transform: translate(-590px,0);
+}
+to {
+-moz-transform:translate(-106px,0);
+}
+}
+
+/*蓝盆友已经收到*/
+
+.blueText{ width: 463px; height: 87px; margin: 100px auto; display: block;}
+.homeIcon{background: url(../img/home.png) no-repeat center;  width: 160px; height: 130px; display: block;}
+.bfShow{ background: url(../img/blueFriend02.png) no-repeat center; width: 322px; height: 320px;  z-index: 100; position: absolute; left: 25%; -moz-transform: translate(-50%,0);  -webkit-animation: changeBf 1.2s 1 ease; -moz-animation: changeBf 1.2s 1 ease; animation: changeBf 1.2s 1 ease;}
+.bfLight{ position: absolute; background: url(../img/lightBg.png) no-repeat center; top: 0; width: 291px; height: 703px; left: 50%;transform: translate(-50%,0); -webkit-transform: translate(-50%,0); -moz-transform: translate(-50%,0); opacity: 1; -webkit-animation: changeLight 2s  1 ; -moz-animation: changeLight 2s  1; animation: changeLight 2s  1;}
+.line100{position: absolute; bottom: 20%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0); }
+
+/*变大*/
+@keyframes changeBf {
+ from{
+opacity: 0;
+transform:scale(0.1,0.1);
+}
+ to{
+opacity: 1;
+transform:scale(1,1);
+}
+
+}
+@-webkit-keyframes changeBf {
+ from{
+opacity: 0;
+transform:scale(0.1,0.1);
+}
+ to{
+opacity:1;
+transform:scale(1,1);
+}
+
+}
+@-moz-keyframes changeBf {
+from{
+opacity: 0;
+transform:scale(0.1,0.1);
+}
+ to{
+opacity: 1;
+transform:scale(1,1);
+}
+}
+
+/*出现*/
+@keyframes changeLight {
+ from{
+opacity: 0;
+}
+ to{
+opacity: 1;
+}
+
+}
+@-webkit-keyframes changeLight {
+ from{
+opacity: 0;
+
+}
+ to{
+opacity:1;
+}
+
+}
+@-moz-keyframes changeLight {
+from{
+opacity: 0;
+}
+ to{
+opacity: 1;
+}
+}
+
+
+

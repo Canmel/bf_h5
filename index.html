@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=640,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>蓝色大道</title>
+    <link rel="stylesheet" href='css/swiper-3.3.1.min.css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!--播放音乐-->
+    <audio id="bgmusic" src="audio/Lullatone - Secretly Loving the Smell of Suntan Oil.mp3" autoplay loop></audio>
+	<div id="musicIcon" class="bgmusic musicplay" onclick="musicCtl()"></div>
+    <!--播放音乐-->
+    
+    <!--首页-->
+	<div class="page pagePub page01" id="page01">
+		<div class="titleBg"></div>
+		<div class="bluefriend"></div>
+		<div class="bottomLogo"></div>
+	</div>
+	<!--首页-->
+	
+	<!--留言板-->
+    <!--遮罩层-->
+    <div  id="shadow">
+		<div class="pyq">请点击[ ... ]分享到朋友圈</div>
+	</div>
+    <!--遮罩层-->
+	<div class="page pagePub page02" id="page02">
+		<div class="messageBg">
+			<ul class="messageUl">
+								
+			</ul>
+		</div>
+		<div class="meaasgeBottom">
+			<a href="#" class="speak">悄悄发言</a>
+			<a href="javascript:void(0)" class="share" id="share">分享</a>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<!--留言板-->
+	
+	<!--留言详情-->
+	<div class="page pagePub page02" id="page03">
+		<!--返回-->
+		<a href="#" class="returnIcon"></a>
+		<!--返回-->
+		<div class="swiper-slide main-slide detail ">
+			<div class="swiper-container swiper-container-h swiper-container-horizontal">
+                <div class="swiper-wrapper">
+                    
+                </div>
+                
+            </div>
+		</div>
+		<div class="swiper-button-h"></div>
+		<div class="swiper-button-p"></div>
+	</div>
+	<!--留言详情-->
+	
+	<!--发送留言-->
+	<div class="page pagePub page02" id="page04">
+		<!--返回-->
+		<a href="#" class="returnIcon"></a>
+		<!--返回-->
+		<div class="sendArea">
+			<p class="sendBg">
+				<textarea id="TextArea1"></textarea>
+			</p>
+			<div class="tip">
+				<p><input type="text" placeholder="不要填写真名哦~" id="message_userid"/></p>
+			</div>
+		</div>
+		<a href="#" class="sendA">偷偷发送</a>
+	</div>
+	<!--发送留言-->
+	
+	<!--发送中-->
+	<div class="page pagePub page02" id="page05">
+		<!--返回-->
+		<a href="#" class="returnIcon"></a>
+		<!--返回-->
+		<div class="sendMessage">
+			<div class="carBg"></div>
+			<img src="img/car.png" class="sendCar">
+		</div>
+		<div class="loading"><img src="img/line.png" class="loadImg"></div>
+		<p class="processNum"><i>60</i>%</p>
+		<p class="loadingStr">正在为你加密</p>
+	</div>
+	<!--发送中-->
+	
+	<!--最后一页-->
+	<div class="page" id="page06">
+		<div class="pagePub page01" >
+			<!--返回首页-->
+			<a href="#" class="homeIcon"></a>
+			<!--返回首页-->
+			<img class="blueText" src="img/blueFriendText.png" />
+			<div class="bfLast">
+
+				<div class="bfShow"></div>
+				<div class="bfLight"></div>
+			</div>
+
+		</div>
+		<img class="line100" src="img/line100.png" />
+		<div class="bottomLogo"></div>
+	</div>
+	<!--最后一页-->
+	
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/swiper-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
