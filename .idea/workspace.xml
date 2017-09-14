@@ -2,42 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d46fd39-a79a-4245-88f0-fc1f9f25041f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio/Lullatone - Secretly Loving the Smell of Suntan Oil.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueFriend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueFriend02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueFriendText.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lead.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lightBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/line100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/musicIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page01-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page01-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page01-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/return.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tx01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tx02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tx03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tx04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tx05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tx06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/BF_H5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5需求.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/swiper-3.3.1.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/swiper-3.3.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,11 +55,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -105,6 +102,16 @@
               <item name="BF_H5" type="b2602c69:ProjectViewProjectNode" />
               <item name="BF_H5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BF_H5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BF_H5" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BF_H5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BF_H5" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -116,6 +123,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,12 +152,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505370512779</updated>
-      <workItem from="1505370514097" duration="102000" />
+      <workItem from="1505370514097" duration="8133000" />
     </task>
+    <task id="LOCAL-00001" summary="ssss">
+      <created>1505370679268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505370679268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ssss">
+      <created>1505371053523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505371053523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102000" />
+    <option name="totallyTimeSpent" value="8133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="709" extended-state="6" />
@@ -175,6 +202,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ssss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssss" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -184,6 +215,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>

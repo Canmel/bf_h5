@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="target-densitydpi=device-dpi,width=640,user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>蓝色大道</title>
+    <title>你能猜到那条是我发的吗？</title>
     <link rel="stylesheet" href='css/swiper-3.3.1.min.css'>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<img src='img/blue.jpg' width=0  height=0 />
 	<!--播放音乐-->
     <audio id="bgmusic" src="audio/Lullatone - Secretly Loving the Smell of Suntan Oil.mp3" autoplay loop></audio>
 	<div id="musicIcon" class="bgmusic musicplay" onclick="musicCtl()"></div>
@@ -116,5 +117,30 @@
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/swiper-3.3.1.min.js"></script>
 	<script src="js/main.js"></script>
+
+	<script>
+        $(function(){
+            $("#share").click(function(){
+                var titl= "你能猜到那条是我发的吗？";
+                var link= "www.skio.cn";
+                var desc= "desc";
+                var imgUrl="http://bf.meedesidy.top/img/car.png"
+                alert("");
+                function weixinShareTimeline(title,desc,link,imgUrl)
+            });
+
+        });
+
+        function weixinShareTimeline(title,desc,link,imgUrl){
+            WeixinJSBridge.invoke('shareTimeline',{
+                "img_url": "img/page01-top.png",
+                "link":link,
+                "desc": "descccc",
+                "title":"你能猜到那条是我发的吗？"
+            });
+        }
+
+
+	</script>
 </body>
 </html>
