@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<img src='img/blue2.jpg' />
 	<!--播放音乐-->
     <audio id="bgmusic" src="audio/Lullatone - Secretly Loving the Smell of Suntan Oil.mp3" autoplay loop></audio>
 	<div id="musicIcon" class="bgmusic musicplay" onclick="musicCtl()"></div>
@@ -121,7 +120,7 @@
 	<script>
 		$(function () {
             $.ajax({
-                url: "/signatures/signature.json",       //获取签名
+                url: "http://chat.meedesidy.top/signatures/signature.json",       //获取签名
                 async: false,
                 data: "url=" + encodeURIComponent(location.href.split('#')[0]),
                 success: function (data) {
@@ -135,7 +134,29 @@
                     });
                 }
             });
+            wx.ready(function () {
+                wxshare();
+            });
+
+
         });
+
+        function wxshare() {
+            var shareData = {
+                imgUrl:'http://bf.meedesidy.top/img/car.png',
+                link:window.location.href.split('#')[0],
+                title:'看谁跑得快',
+                desc:'来来来，解锁你的ER30',
+                success:function (res) {
+                    alert('已分享')
+                },
+                fail:function (res) {
+                    alert(JSON.stringify(res));
+                }
+            };
+            wx.onMenuShareAppMessage(shareData);
+            wx.onMenuShareTimeline(shareData);
+        }
 
 	</script>
 </body>
