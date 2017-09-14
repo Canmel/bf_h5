@@ -52,13 +52,13 @@ $(function(){
     });
 
     $(".sendA").click(function(){
-        $.post('http://192.168.3.68:5001/messages', {"message[context]": $("#TextArea1").val(),"message[userid]": $("#message_userid").val(), formats: 'json'}, function(data){
+        $.post('http://chat.meedesidy.top/messages', {"message[context]": $("#TextArea1").val(),"message[userid]": $("#message_userid").val(), formats: 'json'}, function(data){
             console.info(data);
         });
 
     });
 
-    $.get('http://192.168.3.68:5001/messages/show_all', {formats: 'json'}, function(data){
+    $.get('http://chat.meedesidy.top/messages/show_all', {formats: 'json'}, function(data){
         $.each(data, function(index, item){
             showMessaage(item.context, item.userid);
         })
