@@ -47,9 +47,6 @@ $(function(){
             if(i >= 100){
                 clearInterval(pecentInt);
                 showPage("page06");
-                setTimeout(function(){
-                    showPage("page02");
-                },5000)
             }
         },30);
     });

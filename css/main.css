@@ -18,7 +18,7 @@ ul,li{list-style: none;}
 .titleBg{ background:url(../img/page01-top.png) no-repeat center; width:547px; height:435px; margin: 0 auto; padding-top:24%;}
 .bluefriend{position:absolute; top:560px; background:url(../img/blueFriend.png) no-repeat center; width: 384px; height: 273px; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
  -moz-transform:translate(-50%,0); -webkit-animation: start 1.2s 1 ease; -moz-animation: start 1.2s 1 ease; animation: start 1.2s 1 ease; }
-.bottomLogo{background:url(../img/page01-bottom.png) no-repeat center; width:245px; height:69px; position: absolute; bottom: 8%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
+.bottomLogo{background:url(../img/page01-bottom.png) no-repeat center; width:245px; height:69px; position: absolute; bottom: 2%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
  -moz-transform:translate(-50%,0); }
 /*蓝盆友掉下来*/
 @keyframes start {
@@ -224,7 +224,7 @@ ul,li{list-style: none;}
 
 .blueText{ width: 463px; height: 87px; margin: 100px auto; display: block;}
 .homeIcon{background: url(../img/home.png) no-repeat center;  width: 160px; height: 130px; display: block;}
-.bfShow{ background: url(../img/blueFriend02.png) no-repeat center; width: 322px; height: 320px;  z-index: 100; position: absolute; left: 25%; -moz-transform: translate(-50%,0);  -webkit-animation: changeBf 1.2s 1 ease; -moz-animation: changeBf 1.2s 1 ease; animation: changeBf 1.2s 1 ease;}
+.bfShow{ background: url(../img/blueFriend02.png) no-repeat center; width: 322px; height: 320px;  z-index: 100; position: absolute; left: 25%; -webkit-animation: changeBf 1.2s 1 ease; -moz-animation: changeBf 1.2s 1 ease; animation: changeBf 1.2s 1 ease;}
 .bfLight{ position: absolute; background: url(../img/lightBg.png) no-repeat center; top: 0; width: 291px; height: 703px; left: 50%;transform: translate(-50%,0); -webkit-transform: translate(-50%,0); -moz-transform: translate(-50%,0); opacity: 1; -webkit-animation: changeLight 2s  1 ; -moz-animation: changeLight 2s  1; animation: changeLight 2s  1;}
 .line100{position: absolute; bottom: 20%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0); }
 
@@ -292,7 +292,7 @@ ul,li{list-style: none;}
 }
 
 /*新增*/
-.enter{ position:absolute; right:5%; bottom:10%; color:#fff; font-size:20px;}
+.enter{ position:absolute; right:38%; bottom:11%; color:#fff; font-size:36px; letter-spacing: 2px;}
 .messageBg{ padding-top:0;}
-.topTitle{ color:#fff; font-size:24px; text-align:center; margin-bottom:30px;}
+.topTitle{ color:#fff; font-size:24px; text-align:center; margin-top:30px; letter-spacing: 2px;}
 .messageUl{ height:690px;}
