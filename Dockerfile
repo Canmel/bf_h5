@@ -1,3 +1,3 @@
 FROM daocloud.io/nginx
 COPY  / /usr/share/nginx/html
-COPY /MP_verify_LuLsRIJHxhFskf7c.txt /
+COPY /MP_verify_NeZHNXPbeyioGhDo.txt /
