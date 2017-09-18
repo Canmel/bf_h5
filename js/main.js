@@ -1,9 +1,9 @@
 $(function(){
 	$(".pagePub").css({"height":$(document).height()});
     showPage("page01");
-    setTimeout(function(){
+    $(".enter").click(function(){
         showPage("page02");
-    },3000);
+    });
     $(".messageUl li").click(function(){
         showPage("page03");
         //滑动
