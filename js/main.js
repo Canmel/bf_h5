@@ -67,7 +67,7 @@ $(function(){
         })
     });
 
-    $("#bgmusic").play();
+    $("#bgmusic")[0].play();
 });
 
 
