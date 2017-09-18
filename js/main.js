@@ -30,6 +30,15 @@ $(function(){
         showPage("page01");
     });
     $(".sendA").click(function(){
+        if($("#TextArea1").val().length == 0 ){
+            alert("你好像什么都没说呢");
+            return false;
+        }
+        if($("#message_userid").val().length == 0 ){
+            alert("蓝朋友问你叫啥?");
+            return false;
+        }
+        sendMessage();
         showPage("page05");
         var i = 0;
         var pecentInt = setInterval(function(){
@@ -54,13 +63,6 @@ $(function(){
         }
     });
 
-    $(".sendA").click(function(){
-        $.post('http://chat.meedesidy.top/messages', {"message[context]": $("#TextArea1").val(),"message[userid]": $("#message_userid").val(), formats: 'json'}, function(data){
-            console.info(data);
-        });
-
-    });
-
     $.get('http://chat.meedesidy.top/messages/show_all', {formats: 'json'}, function(data){
         $.each(data, function(index, item){
             showMessaage(item.context, item.userid);
@@ -70,6 +72,11 @@ $(function(){
     $("#bgmusic")[0].play();
 });
 
+function sendMessage() {
+    $.post('http://chat.meedesidy.top/messages', {"message[context]": $("#TextArea1").val(),"message[userid]": $("#message_userid").val(), formats: 'json'}, function(data){
+        console.info(data);
+    });
+}
 
 function showMessaage(message, userid){
     var messageSlideHtml = "<div class='swiper-slide messageSlide'><img src='img/tx0"+ Math.floor(Math.random()*6+1) +".png' class='txBig'><span class='nameBig'>" + userid + "</span><p class='messageBig'>" + message + "</p></div>";
