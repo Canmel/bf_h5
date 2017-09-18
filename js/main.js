@@ -23,8 +23,11 @@ $(function(){
 	$("#shadow").click(function(){
 		$(this).hide();
 	});
-    $(".returnIcon,.homeIcon").click(function(){
+    $(".returnIcon").click(function(){
         showPage("page02");
+    });
+    $(".homeIcon").click(function(){
+        showPage("page01");
     });
     $(".sendA").click(function(){
         showPage("page05");
