@@ -65,8 +65,10 @@ $(function(){
         $.each(data, function(index, item){
             showMessaage(item.context, item.userid);
         })
-    });     
-})
+    });
+
+    $("#bgmusic").play();
+});
 
 
 function showMessaage(message, userid){
