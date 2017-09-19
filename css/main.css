@@ -17,7 +17,7 @@ ul,li{list-style: none;}
 .page01{ background-color:#0068b7; position:relative;}
 .titleBg{ background:url(../img/page01-top.png) no-repeat center; width:547px; height:435px; margin: 0 auto; padding-top:24%;}
 .bluefriend{position:absolute; top:560px; background:url(../img/blueFriend.png) no-repeat center; width: 384px; height: 273px; left:20%; -webkit-animation: start 1.2s 1 ease; -moz-animation: start 1.2s 1 ease; animation: start 1.2s 1 ease; }
-.bottomLogo{background:url(../img/page01-bottom.png) no-repeat center; width:245px; height:69px; position: absolute; bottom: 2%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
+.bottomLogo{background:url(../img/page01-bottom.png) no-repeat center; width:245px; height:69px; position: absolute; bottom: 5%; left:50%; transform:translate(-50%,0); -webkit-transform:translate(-50%,0);
  -moz-transform:translate(-50%,0); }
 /*蓝盆友掉下来*/
 @keyframes start {
@@ -291,7 +291,7 @@ ul,li{list-style: none;}
 }
 
 /*新增*/
-.enter{ position:absolute; right:38%; bottom:11%; color:#fff; font-size:36px; letter-spacing: 2px;}
+.enter{ position:absolute; right:39%; bottom:14%; color:#fff; font-size:30px; letter-spacing: 2px;}
 .messageBg{ padding-top:0;}
 .topTitle{ color:#fff; font-size:24px; text-align:center; margin-top:30px; letter-spacing: 2px;}
 .messageUl{ height:690px;}
